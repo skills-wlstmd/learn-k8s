@@ -16,6 +16,8 @@
 
 # kubernetes 아키텍처
 
+![아키텍처](https://github.com/user-attachments/assets/7e29b990-c3af-4582-b94e-1dfd7afcbc33)
+
 `Control plane (Master Node) : k8s 전체를 통제/관리`
 
 - kube-apiserver : 쿠버네티스 API를 노출하는 중앙 컨트롤 플레인 컴포넌트
