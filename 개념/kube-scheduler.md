@@ -27,8 +27,9 @@
 `Label & Selector (Affinity)`
 
 - NodeSelector
-  노드에 라벨을 할당하고, 파드에는 nodeSelector 필드를 추가하여 특정 노드에만 구동되도록 함
-  다만, NodeSelector는 여러 값을 할당하거나 not 예외처리를 하거나 하는 등을 하기는 어려움
+
+  - 노드에 라벨을 할당하고, 파드에는 nodeSelector 필드를 추가하여 특정 노드에만 구동되도록 함
+    다만, NodeSelector는 여러 값을 할당하거나 not 예외처리를 하거나 하는 등을 하기는 어려움
 
 - NodeAffinity
-  여러 advanced 할당을 할 수 있는 만큼 문법이 다소 복잡
+  - 여러 advanced 할당을 할 수 있는 만큼 문법이 다소 복잡
