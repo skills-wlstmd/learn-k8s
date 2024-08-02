@@ -2,6 +2,7 @@
 
 - 클러스터 안에서 자원 할당이 가능한 노드중 알맞은 노드를 선택하는 역할
 - Label / Selector / Affinity / Taint / Toleration 기능과 함께 동작
+- 기본포트 : 10259
 
 `pod 스케줄링의 필요성`
 
