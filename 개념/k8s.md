@@ -30,3 +30,9 @@
 - kubelet : k8s의 노드에 설치되어 컨테이너를 실행하고 관리하는 컴포넌트
 - kube-proxy : k8s의 서비스 디스커버리와 로드밸런싱을 담당하는 컴포넌트
 - container runtime : 컨테이너를 실행하는 소프트웨어 (예: Docker, containerd, CRI-O)
+
+`구조`
+![structure](https://github.com/user-attachments/assets/872ab42f-61e5-4cb4-ac33-36f31a74e529)
+
+`k8s RBAC`
+![k8s-RBAC](https://github.com/user-attachments/assets/b7c27b30-014f-4678-9909-1fdaf4209b6d)
