@@ -8,6 +8,7 @@ k8s code repo
 │   │   └── eks.sh
 │   └── 개념
 │       └── eks.md
+├── README.md
 ├── commands
 │   ├── control-plane
 │   │   ├── etcd.sh
@@ -32,11 +33,35 @@ k8s code repo
 │       ├── replicaset.sh
 │       ├── secret.sh
 │       └── service.sh
+├── k8s-Tools
+│   ├── ecr.md
+│   ├── helm.md
+│   ├── k9s.md
+│   ├── karpenter.md
+│   ├── kubecost.md
+│   ├── kubectx_kubens.md
+│   └── lens.md
 ├── manifest
 │   ├── daemonset.yaml
 │   ├── db-secret.txt
 │   ├── deployment.yaml
 │   ├── env-pod.yaml
+│   ├── helm
+│   │   ├── helm.sh
+│   │   └── mychart
+│   │       ├── Chart.yaml
+│   │       ├── charts
+│   │       ├── templates
+│   │       │   ├── NOTES.txt
+│   │       │   ├── _helpers.tpl
+│   │       │   ├── deployment.yaml
+│   │       │   ├── hpa.yaml
+│   │       │   ├── ingress.yaml
+│   │       │   ├── service.yaml
+│   │       │   ├── serviceaccount.yaml
+│   │       │   └── tests
+│   │       │       └── test-connection.yaml
+│   │       └── values.yaml
 │   ├── namespace.yaml
 │   ├── nginx.conf
 │   ├── pod.yaml
