@@ -20,5 +20,9 @@ helm list
 # 차트 상태 확인
 helm status bitnami-nginx
 
+# 차트 업그레이드
+helm upgrade -f values.yaml <chart-id> . 
+
 # 차트 삭제
 helm delete bitnami-nginx 
+helm uninstall bitnami-nginx
