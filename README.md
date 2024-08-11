@@ -83,21 +83,22 @@ k8s code repo
     │   ├── kube-proxy.md
     │   └── kubelet.md
     ├── k8s.md
-    └── object
-        ├── CA.md
-        ├── configmap.md
-        ├── conrol-objects.md
-        ├── daemonset.md
-        ├── deployment.md
-        ├── env-variables.md
-        ├── ingress.md
-        ├── k8s-object.md
-        ├── metricserver_hpa_vpa.md
-        ├── namespace.md
-        ├── node.md
-        ├── pod.md
-        ├── replicaset.md
-        ├── secret.md
-        ├── service.md
-        └── volume.md
+    ├── object
+    │   ├── CA.md
+    │   ├── configmap.md
+    │   ├── conrol-objects.md
+    │   ├── daemonset.md
+    │   ├── deployment.md
+    │   ├── env-variables.md
+    │   ├── ingress.md
+    │   ├── k8s-object.md
+    │   ├── metricserver_hpa_vpa.md
+    │   ├── namespace.md
+    │   ├── node.md
+    │   ├── pod.md
+    │   ├── replicaset.md
+    │   ├── secret.md
+    │   ├── service.md
+    │   └── volume.md
+    └── probe.md
 ```
